@@ -7,6 +7,7 @@ public class PokeCredit extends JavaPlugin{
   @Override
   public void onEnable(){
     log.info("Enabling PokeCredit Plugin..");
+    saveDefaultConfig();
   }
   
   @Override
